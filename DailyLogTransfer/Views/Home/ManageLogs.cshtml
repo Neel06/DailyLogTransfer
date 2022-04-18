@@ -1,0 +1,20 @@
+﻿
+<div class="widget-section" id="LogList_Controller" ng-app="myApp" ng-controller="myCntrl" ng-cloak>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="panel border">
+                <div class="panel-body text-center">
+                    <button class="btn btn-info btn-rounded-xl" ng-click="GetTodaysLog()">Today's Log</button>
+                </div>
+                {{06+22}}
+
+                <div class="panel-body" id="OutputResponse" data-html="true" ng-bind-html="OutputResponse">
+                    <p class="display-2 text-danger">
+                        @ViewBag.ErrorMsg
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
