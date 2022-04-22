@@ -91,14 +91,13 @@ namespace DailyLogTransfer.Controllers
         {
             string sourceFile = @FullPath;
             string[] DestinationFiles = {
-                @"D:\PROJECT\PIE\HDFCERGO.PIP\HDFCERGO.PIP.RestServices\Log\server1\" +FileName,
-                @"D:\PROJECT\PIE\HDFCERGO.PIP\HDFCERGO.PIP.RestServices\Log\server2\" +FileName,
-                @"D:\PROJECT\PIE\HDFCERGO.PIP\HDFCERGO.PIP.RestServices\Log\server3\" +FileName,
-                @"D:\PROJECT\PIE\HDFCERGO.PIP\HDFCERGO.PIP.RestServices\Log\server4\" +FileName,
-                @"D:\PROJECT\PIE\HDFCERGO.PIP\HDFCERGO.PIP.RestServices\Log\server5\" +FileName,
-                @"D:\PROJECT\PIE\HDFCERGO.PIP\HDFCERGO.PIP.RestServices\Log\server6\" +FileName,
-                @"D:\PROJECT\PIE\HDFCERGO.PIP\HDFCERGO.PIP.RestServices\Log\server7\" +FileName,
-                @"D:\PROJECT\PIE\HDFCERGO.PIP\HDFCERGO.PIP.RestServices\Log\server8\" +FileName
+                @"D:\server1\Log" +FileName,
+                @"D:\server2\Log" +FileName,
+                @"D:\server4\Log" +FileName,
+                @"D:\server5\Log" +FileName,
+                @"D:\server6\Log" +FileName,
+                @"D:\server7\Log" +FileName,
+                @"D:\server8\Log" +FileName,
             };
 
             try
